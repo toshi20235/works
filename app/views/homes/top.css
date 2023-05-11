@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: inline-block;
+  margin: 33px;
+}
+.h1 {
+　margin: 33px;
+  line-height: 18px;
+
+}
+.p, .a {
+
+}
