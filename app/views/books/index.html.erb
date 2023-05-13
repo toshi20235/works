@@ -22,7 +22,9 @@
        <tr>
           <td><%= book.title %></td>
           <td><%= book.body %></td>
-          <td><a class="show" href=link_to book.title,book_path(book.id)>show</a></td>
+          <td><%=link_to "show", book_path(book.id) %></td>
+          <td><%=link_to "edit", edit_book_path(book.id) %></td>
+          <td><%=link_to "destoroy", book_path(book.id) %></td>
        </tr>
       <% end %>
   </tbody>
