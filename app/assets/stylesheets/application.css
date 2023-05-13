@@ -7,6 +7,16 @@ body {
 p {
   margin: 33px
 }
+table {
+  display: table;
+  box-sizing: border-box;
+}
+th {
+  padding-bottom: 5px;
+}
+td {
+  padding: 1px 5px 7px
+}
   
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
