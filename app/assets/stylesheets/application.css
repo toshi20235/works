@@ -21,6 +21,15 @@ td {
   border-right: solid 1px black;
   margin-right: 5px;
 }
+.box {
+  display: flex;
+}
+.body-box {
+  margin: 0 0 10px;
+}
+.show-back {
+  padding-top: 10px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
