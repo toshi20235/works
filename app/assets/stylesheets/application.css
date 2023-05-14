@@ -17,7 +17,10 @@ th {
 td {
   padding: 1px 5px 7px
 }
-  
+.back-line {
+  border-right: solid 1px black;
+  margin-right: 5px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
